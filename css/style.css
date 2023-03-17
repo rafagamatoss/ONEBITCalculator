@@ -76,8 +76,30 @@ body{
     color: #fff;
 }
 
+#buttons-container .op{
+    background-color: #ff0909;
+    transition: 0.3s ease-in;
+    color: white;
+}
+
+#buttons-container .op:hover{
+    background-color: #ffffff;
+    border: 2px solid ;
+    border-color: #ff1010;
+   
+    color: #ff1010;
+}
+
 #buttons-container #equal-btn{
     grid-column: span 2;
-    background-color: #fc7676;
+    background-color: #4bb8f7;
+    transition: 0.1s ease-in;
+}
+
+#buttons-container #equal-btn:hover{
+    background-color: white;
+    color: rgb(0, 89, 148);
+    border: 2px solid;
+    border-color: rgb(0, 89, 148);
 }
 
